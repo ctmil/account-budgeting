@@ -9,7 +9,7 @@
               'Odoo Community Association (OCA)',
     'website': 'https://github.com/OCA/account-budgeting',
     'depends': ['account'],
-    'excludes': ['account_budget'],
+#    'excludes': ['account_budget'],
     'data': [
         'security/ir.model.access.csv',
         'security/account_budget_security.xml',
